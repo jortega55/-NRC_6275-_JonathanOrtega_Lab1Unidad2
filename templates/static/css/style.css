@@ -23,7 +23,11 @@ img.results-img {
 /* estilos del cuerpo de la pagina */
 body {
     background: url('https://i.ytimg.com/vi/n2KH2GH7xt0/maxresdefault.jpg');
-
+    position: absolute;
+    top: 100px;
+    right: 400px;
+    left: 400px;
+   
 
 }
 
@@ -36,4 +40,5 @@ canvas {
 h1 {
     color: antiquewhite;
 }
+
 
