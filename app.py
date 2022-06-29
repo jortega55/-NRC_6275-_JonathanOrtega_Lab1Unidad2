@@ -27,7 +27,8 @@ def index():
 
         Returns
         -------
-        returns the functions described in all classes to be executed by the user
+        Returns the graph made by the user, later this graph is sent to the 
+        results class to be saved in a list that is created in the aforementioned class. 
     """
     return render_template("/layouts/index.html")
 
