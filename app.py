@@ -8,19 +8,17 @@ app.secret_key = "s3cr3t"
 app.debug = False
 app._static_folder = os.path.abspath("templates/static/")
 
-
+#ruta del metodo get donde se relacion al index
 @app.route("/", methods=["GET"])
 def index():
 
 
     """
-        Create of the methods for entering coordinates by mouse and represented on a canvas.
-
+        creation of a game where the jump instruction is given using the spacer and passes obstacles
         Parameters
         ----------
-        Post:
+        
         Get:
-        datalist
         unique_id
         get_file_content
         fig= figura
@@ -29,8 +27,7 @@ def index():
 
         Returns
         -------
-        Returns the graph made by the user, later this graph is sent to the 
-        results class to be saved in a list that is created in the aforementioned class. 
+        returns the functions described in all classes to be executed by the user
     """
     return render_template("/layouts/index.html")
 

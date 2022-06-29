@@ -134,7 +134,7 @@ function createScoreLabel(x, y) {
         ctx.fillText(this.text, this.x, this.y);
     }
 }
-
+//funcion de canvas para la colision del juego 
 function updateCanvas() {
     detectCollision();
     
